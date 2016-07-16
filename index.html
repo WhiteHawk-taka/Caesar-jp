@@ -28,19 +28,19 @@
     <form class="form-horizontal">
       <div class="form-group">
         <div class="col-lg-12 col-xs-12 form-margin">
-          <textarea placeholder="暗号化前のひらがな" class="form-control"></textarea>
+          <textarea placeholder="暗号化前のひらがな" class="form-control" id="normal"></textarea>
         </div>
         <div class="col-lg-4 col-xs-4 form-margin">
-          <button class="btn btn-default center-block">暗号化</button>
+          <button class="btn btn-default center-block" id="encrypt">暗号化</button>
         </div>
         <div class="col-lg-4 col-xs-4 form-margin">
-          <input type="number" class="form-control" placeholder="鍵">
+          <input type="number" class="form-control" placeholder="鍵" id="keys">
         </div>
         <div class="col-lg-4 col-xs-4 form-margin">
-          <button class="btn btn-default center-block">復元</button>
+          <button class="btn btn-default center-block" id="decrypt">復元</button>
         </div>
         <div class="col-lg-12 col-xs-12 form-margin">
-          <textarea placeholder="暗号化後のひらがな" class="form-control"></textarea>
+          <textarea placeholder="暗号化後のひらがな" class="form-control" id="cipher"></textarea>
         </div>
       </div>
     </form>
